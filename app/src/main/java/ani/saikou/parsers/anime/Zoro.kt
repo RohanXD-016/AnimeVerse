@@ -16,9 +16,9 @@ import java.net.URLEncoder
 @Suppress("BlockingMethodInNonBlockingContext")
 class Zoro : AnimeParser() {
 
-    override val name = "Zoro"
-    override val saveName = "zoro_to"
-    override val hostUrl = "https://zoro.to"
+    override val name = "Kaido"
+    override val saveName = "Kaidoo_vercel"
+    override val hostUrl = "https://kaidoo.vercel.app"
     override val isDubAvailableSeparately = false
 
     private val header = mapOf("X-Requested-With" to "XMLHttpRequest", "referer" to hostUrl)
